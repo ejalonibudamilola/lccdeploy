@@ -1144,7 +1144,7 @@ section {
 #contact .contactForm input::focus, #contact .contactForm textarea::focus {
   background-color: #d7ba21;
 }
-#contact .contactForm button[type=submit] {
+#contact .contactForm button[type=button] {
   background: #d7ba21;
   border: 0;
   padding: 10px 30px;
@@ -1152,7 +1152,7 @@ section {
   transition: 0.4s;
   cursor: pointer;
 }
-#contact .contactForm button[type=submit]:hover {
+#contact .contactForm button[type=button]:hover {
   background: #d7ba21;
 }
 @-webkit-keyframes animate-loading {

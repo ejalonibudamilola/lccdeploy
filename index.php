@@ -590,7 +590,7 @@
               <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message"></textarea>
               <span id="cmessage" class="error" font-weight-bold></span>
             </div>            
-            <div class="text-center"><button id="contactUs" type="submit">Send Message</button></div>
+            <div class="text-center"><button id="contactUs" type="button">Send Message</button></div>
           </form>
         </div>
 
@@ -743,7 +743,6 @@
 
   $('#contactUs').click(function(e){
           e.preventDefault();
-          $('#failureModal').modal('show')
               var valid = ValidateForm();
               if (valid===true){
                 var form = $(this).closest('form');
