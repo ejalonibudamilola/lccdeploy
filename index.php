@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -336,16 +336,53 @@
               <h4><a href="assets/img/portfolio/p6.jpg" class="link-preview portfolio-lightbox">View Property Details</a></h4>
             </div>
           </div>
-        </div>  
+        </div>        
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <figure>
-              <img src="assets/img/portfolio/A2.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/A2.jpg" data-lightbox="portfolio" data-title="" class="link-preview portfolio-lightbox"><i class="bi bi-plus"></i></a>
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/A2_tplomo.jpg" class="img-fluid" alt="">
+              <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/A2_tplomo.jpg" data-lightbox="portfolio" data-title="" class="link-preview portfolio-lightbox"><i class="bi bi-plus"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="assets/img/portfolio/A2.jpg" class="link-preview portfolio-lightbox">View Property Details</a></h4>
+              <h4><a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/A2_tplomo.jpg" class="link-preview portfolio-lightbox">View Property Details</a></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/p9_ya9r9o.jpg" class="img-fluid" alt="">
+              <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/p9_ya9r9o.jpg" data-lightbox="portfolio" data-title="" class="link-preview portfolio-lightbox"><i class="bi bi-plus"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/p9_ya9r9o.jpg" class="link-preview portfolio-lightbox">View Property Details</a></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/p8_ixdge2.jpg" class="img-fluid" alt="">
+              <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/p8_ixdge2.jpg" data-lightbox="portfolio" data-title="" class="link-preview portfolio-lightbox"><i class="bi bi-plus"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/p8_ixdge2.jpg" class="link-preview portfolio-lightbox">View Property Details</a></h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977396/LCC/p7_kbqpxa.jpg" class="img-fluid" alt="">
+              <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977396/LCC/p7_kbqpxa.jpg" data-lightbox="portfolio" data-title="" class="link-preview portfolio-lightbox"><i class="bi bi-plus"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977396/LCC/p7_kbqpxa.jpg" class="link-preview portfolio-lightbox">View Property Details</a></h4>
             </div>
           </div>
         </div>
@@ -365,15 +402,14 @@
           <div class="testimonial-item">
             <img src="assets/img/portfolio/A1.jpg" class="testimonial-img" alt="">            
           </div>
-        </div><!-- End testimonial item -->
+        </div>
 
         <div class="swiper-slide">
           <div class="testimonial-item">
-            <img src="assets/img/portfolio/A2.jpg" class="testimonial-img" alt="">
+            <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676977397/LCC/A2_tplomo.jpg" class="testimonial-img" alt="">
           </div>
-        </div><!-- End testimonial item -->  
-      </div>
-      <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>     
     </div>
 
   </div>
@@ -553,10 +589,8 @@
             <div class="form-group">
               <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message"></textarea>
               <span id="cmessage" class="error" font-weight-bold></span>
-            </div>
-            <div class="text-center">
-              <button id="contactUs" type="submit">Send Message</button>
-            </div>
+            </div>            
+            <div class="text-center"><button id="contactUs" type="submit">Send Message</button></div>
           </form>
         </div>
 
@@ -596,7 +630,7 @@
               Former Fun Factory<br>
               200285, Oshuntokun Avenue,<br>
               Bodija, Ibadan <br>
-              <strong>Phone:</strong> +2349165253317<br>
+              <strong>Phone:</strong> +2349137527927<br>
               <strong>Email:</strong> lightcityhomes@gmail.com<br>
             </p>
 
@@ -618,7 +652,9 @@
   </footer>
   <!-- End Footer -->
 
+  <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
    
   <!-- ======= Modal ======= -->
    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -628,7 +664,7 @@
           Your Message has been successfully sent
         </div>
         <div class="modal-footer">
-          <button id="successBtn" style="background-color: #d7ba21; border-color: #d7ba21" type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+          <button id="successBtn" style="background-color: #d7ba21; border-color: #d7ba21;" type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
         </div>
       </div>
     </div>
@@ -651,12 +687,13 @@
   <!-- JS Files -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+
 
   <script type="text/javascript">
     function ValidateForm(){
@@ -704,8 +741,9 @@
   }
 
 
-  $("#contactUs").click(function(e){
+  $('#contactUs').click(function(e){
           e.preventDefault();
+          $('#failureModal').modal('show')
               var valid = ValidateForm();
               if (valid===true){
                 var form = $(this).closest('form');
